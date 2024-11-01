@@ -16,5 +16,6 @@ class ResultActivity : AppCompatActivity() {
         val total = intent.getIntExtra("total", 0)
         val resultTextView = findViewById<TextView>(R.id.resultTextView)
         resultTextView.text = "Сумма заказа = $total руб."
+
     }
 }
